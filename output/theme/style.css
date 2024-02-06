@@ -1,0 +1,24 @@
+  
+  /* Light mode styles */
+  @media (prefers-color-scheme: light) {
+    html,body {
+      background-color: #d7a1a1;
+    }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #0f0f0f;
+      color: #fff;
+    }
+  }
+
+  /* Styles for printing */
+  @media print {
+    body {
+      background-color: #fff;
+      color: #000; /* Text color for printing */
+    }
+  
+    /* Additional styles for printed pages */
+  }
